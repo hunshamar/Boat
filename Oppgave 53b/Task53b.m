@@ -7,6 +7,7 @@ T_d = 72.5216;
 T_f = 8.39;
 psi_r = 30;
 
+%Plotting
 compass = importdata('53b_compass.mat'); %Import data from simulink
 rudder = importdata('53b_rudder.mat'); %Import data from simulink
 reference = importdata('53b_ref.mat'); %Import data from simulink
