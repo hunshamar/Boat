@@ -14,7 +14,8 @@ plot(omega,pxx);
 grid on;
 xticks([ 0 pi/8 pi/4 3*pi/8 pi/2 5*pi/8 3*pi/4 7*pi/8 pi])
 xticklabels({'0','\pi/8','\pi/4','3\pi/8', '\pi/2', '5\pi/8', '3\pi/4', '7\pi/8', 'pi'})
-xlabel('frequency');
+xlabel('frequency (rad)');
 ylabel('power density estimate');
 axis([0 pi-0.5 0 0.0009]);
+hold on;
 
