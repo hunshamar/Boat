@@ -1,7 +1,7 @@
 %% Code for plotting rudder angle and estimated bias together in one figure %%
 
-no = importdata('53d_rudder.mat'); %Import data from simulink
-ff = importdata('53d_rudderbias.mat');
+no = importdata('53_rudder.mat'); %Import data from simulink
+ff = importdata('53_rudderbias.mat');
 
 m=1:0.1:length(no)/10;
 n = 1:0.1:length(ff)/10;

@@ -1,7 +1,7 @@
 %% code for plotting estimated and actual heading together %% 
 
-no = importdata('53d_compass.mat'); %Import data from simulink
-ff = importdata('53d_estimatedHeading.mat');
+no = importdata('53e_compass.mat'); %Import data from simulink
+ff = importdata('53e_estimatedHeading.mat');
 plot(1:0.1:length(no)/10,no(2,1:length(1:0.1:length(no)/10)), 'r');
 hold on;
 plot(1:0.1:length(ff)/10,ff(2,1:length(1:0.1:length(ff)/10)), 'b');
