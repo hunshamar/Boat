@@ -7,7 +7,7 @@ hold on;
 plot(1:0.1:length(ff)/10,ff(2,1:length(1:0.1:length(ff)/10)), 'b');
 grid on;
 title('Actual and estimated wave heading');
- axis([0 500 -5 5]);
+ axis([0 500 0 40]);
 xlabel('time');
 ylabel('travel angle');
 legend('Actual compass course', 'estimated heading');
